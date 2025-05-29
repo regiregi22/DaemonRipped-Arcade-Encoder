@@ -11,6 +11,7 @@ The input lag for an arcade controller or adapter built around this project is m
 
 ## Wiring:  
 The wiring is simple. Connect one leg of each microswitch to GND and the other leg to the digital pin according to the schematic below. That's it!  
+
 ![Assemble1](images/daemonbite-arcade-encoder-wiring.png)
 
 PENDIENTE:  
