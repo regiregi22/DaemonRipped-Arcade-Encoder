@@ -6,7 +6,7 @@ The input lag for an arcade controller or adapter built around this project is m
 
 | Samples | Average | Max | Min | Std Dev |
 | ------ | ------ | ------ | ------ | ------ | 
-| 13962 | 0.74ms | 1.28ms | 0.23ms | 0.29ms |
+| 13962 | 0.74ms | 1.28ms | 0.23ms | 0.29ms |  
 EEE---------------------------
 
 ## Wiring (Arcade Controller)
