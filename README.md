@@ -19,11 +19,11 @@ The wiring is simple. Connect one leg of each microswitch to GND and the other l
 PENDIENTE:  
 ## Programming the Arduino:  
 1. Solder J1 on the Arduino Pro Micro (to properly run 5v for 16Mhz).
-1. Open up Arduino, then go to the Preferences (File > Preferences). Then, towards the bottom of the window, paste this URL into the "Additional Board Manager URLs" text box: https://raw.githubusercontent.com/sparkfun/Arduino_Boards/main/IDE_Board_Manager/package_sparkfun_index.json
-1. Open the Board Manager by clicking Tools, then hovering over the Board selection tab and clicking Board Manager. Search for 'sparkfun' in the Board Manager. You should see the SparkFun AVR Boards package appear. Click install.
-1. Select Tools > Board > SparkFun AVR Boards > SparkFun Pro Micro.
-2. Select Tools > 
-1. Download the free Arduino IDE: https://www.arduino.cc/en/main/software
-2. Connect the Arduino Pro Micro to a USB port and let the drivers install.
-3. Choose the correct board and virtual COM port in the IDE.
-3. Compile/Upload the project.
+2. Download the free Arduino IDE: https://www.arduino.cc/en/main/software
+3. Connect the Arduino Pro Micro to a USB port and let the drivers install.
+4. Open up Arduino, then go to the Preferences (File > Preferences). Then, towards the bottom of the window, paste this URL into the "Additional Board Manager URLs" text box: https://raw.githubusercontent.com/sparkfun/Arduino_Boards/main/IDE_Board_Manager/package_sparkfun_index.json
+5. Open the Board Manager by clicking Tools, then hovering over the Board selection tab and clicking Board Manager. Search for 'sparkfun' in the Board Manager. You should see the SparkFun AVR Boards package appear. Click install.
+6. Select Tools > Board: > SparkFun AVR Boards > SparkFun Pro Micro.
+7. Select Tools > Port: > COM Port
+8. Select Tools > Processor: > ATmega32U4 (5V, 16 Mhz)
+9. Compile/Upload the project.
