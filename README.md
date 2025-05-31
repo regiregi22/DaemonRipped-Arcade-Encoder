@@ -4,7 +4,8 @@ This is an arcade controller project based on MickGyver's DaemonBite joystick, b
 Debouncing for mechanical switches is already activated (adds around 0.035ms latency, which is nothing). 10ms should be an ideal value, lowering it might cause problems, and it shouldn't be any higher than 20ms.
 
 ## Performance:
-The input lag for an arcade controller built around this project is minimal. Here is the result from a test with a 1ms polling rate:
+The input lag for an arcade controller built around this project is minimal. Here is the result from a test with a 1ms polling rate:  
+
 NEW DaemonRipped Arcade Encoder (tested with debouncing)
 | Samples | Average | Max | Min | Std Dev |
 | ------ | ------ | ------ | ------ | ------ | 
