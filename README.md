@@ -5,13 +5,13 @@ Debouncing for mechanical switches is already activated (adds around 0.035ms lat
 
 ## Performance:
 The input lag for an arcade controller or adapter built around this project is minimal. Here is the result from a test with a 1ms polling rate:
-NEW DaemonRipped Arcade Encoder
+NEW DaemonRipped Arcade Encoder (tested with debouncing)
 | Samples | Average | Max | Min | Std Dev |
 | ------ | ------ | ------ | ------ | ------ | 
 | 1000 | 0.72ms | 1.19ms | 0.41ms | 0.24ms |  
 
 
-OLD DaemonBite Arcade Encoder
+OLD DaemonBite Arcade Encoder (tested without debouncing)
 | Samples | Average | Max | Min | Std Dev |
 | ------ | ------ | ------ | ------ | ------ | 
 | 13962 | 0.74ms | 1.28ms | 0.23ms | 0.29ms |  
