@@ -5,7 +5,7 @@
 
 #include "Gamepad.h"
 
-#define DEBOUNCE 0          // 1=Diddly-squat-Delay-Debouncing™ activated, 0=Debounce deactivated
+#define DEBOUNCE 1          // 1=Diddly-squat-Delay-Debouncing™ activated, 0=Debounce deactivated
 #define DEBOUNCE_TIME 10    // Debounce time in milliseconds
 
 const char *gp_serial = "DaemonRipped Arcade Encoder";
