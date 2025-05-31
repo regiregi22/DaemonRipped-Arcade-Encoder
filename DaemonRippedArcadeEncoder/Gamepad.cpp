@@ -130,9 +130,7 @@ void Gamepad_::reset()
 {
   _GamepadReport.X = 0;
   _GamepadReport.Y = 0;
-  _GamepadReport.Z = 0;
   _GamepadReport.buttons = 0;
-  _GamepadReport.hat = 15; // Neutral
   this->send();
 }
 

@@ -47,10 +47,6 @@ void setup()
   DDRB  &= ~B01111110; // Set PB1-PB6 as inputs
   PORTB |=  B01111110; // Enable internal pull-up resistors
 
-  // Debounce selector switch (currently disabled)
-  DDRE  &= ~B01000000; // Pin 7 as input
-  PORTE |=  B01000000; // Enable internal pull-up resistor
-
   // Initialize debouncing timestamps
   for(pin=0; pin<4; pin++)
     axesMillis[pin]=0;
@@ -58,7 +54,6 @@ void setup()
     buttonsMillis[pin]=0;
 
   Gamepad.reset();
-
 
 }
 
