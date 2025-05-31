@@ -1,5 +1,5 @@
 # DaemonRipped Arcade Encoder
-This is an arcade controller project based on MickGyver's DaemonBite joystick, but removing all extra functions to a minimum. A four directions stickk and up to 12 buttons are supported. It uses any standerd Arduino Pro Micro board.
+This is an arcade controller project based on MickGyver's DaemonBite joystick, but removing all extra functions to a minimum. A four directions stick and up to 12 buttons are supported. It uses any standerd Arduino Pro Micro board.
 
 Debouncing for mechanical switches is already activated (adds around 0.035ms latency, which is nothing). 10ms should be an ideal value, lowering it might cause problems, and it shouldn't be any higher than 20ms.
 
