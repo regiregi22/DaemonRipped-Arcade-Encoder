@@ -8,7 +8,7 @@ The input lag for an arcade controller built around this project is minimal. Her
 NEW DaemonRipped Arcade Encoder (tested with debouncing)
 | Samples | Average | Max | Min | Std Dev |
 | ------ | ------ | ------ | ------ | ------ | 
-| 1000 | 0.72ms | 1.19ms | 0.41ms | 0.24ms |  
+| 1000 | 0.68ms | 1.15ms | 0.37ms | 0.24ms |  
 
 
 OLD DaemonBite Arcade Encoder (tested without debouncing)
