@@ -4,15 +4,28 @@ This is an arcade controller project based on MickGyver's DaemonBite, but removi
 Debouncing for mechanical switches is already activated (adds only around 0.035ms latency). 10ms setting for debounce should be an ideal value, lowering it might cause problems, and it shouldn't be any higher than 20ms.  
 <br />
 ## Performance:
-The input lag for an arcade controller built around this project is minimal. Here is the result from a [test with a 1ms polling rate](https://inputlag.science/controller/methodology):  
+The input lag for an arcade controller built around this project is minimal. Here is the result from a [test with a native polling rate of 1ms](https://inputlag.science/controller/methodology):  
 
-### DaemonRipped Arcade Encoder (tested with debouncing on):
+#### DaemonRipped Arcade Encoder (tested with debouncing on):
 | Samples | Average | Max | Min | Std Dev |
 | ------ | ------ | ------ | ------ | ------ | 
 | 1000 | 0.72ms | 1.19ms | 0.41ms | 0.24ms |  
 
 <br />  
 
+Just for comparison, this is the latency for a common low latency controller:
+#### Sony DualShock 4 (Bluetooth) (native polling rate 1ms):
+| Samples | Average | Max | Min | Std Dev |
+| ------ | ------ | ------ | ------ | ------ | 
+| 1000 | 3.00ms | 12.00ms | 2.20ms | 0.70ms |  
+
+<br />  
+#### Sony DualShock 4 (Wired) (native polling rate 4ms):
+| Samples | Average | Max | Min | Std Dev |
+| ------ | ------ | ------ | ------ | ------ | 
+| 1000 | 10.3ms | 12.4ms | 7.5ms | 1.2ms |  
+
+<br />  
 ## Wiring:  
 The wiring is simple. Connect one leg of each microswitch to GND and the other leg to the digital pin according to the schematic below:  
 
