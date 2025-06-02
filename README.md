@@ -4,7 +4,7 @@ This is an arcade controller board based on [MickGyver's DaemonBite](https://git
 Debounce optional feature has been kept. It is activated by default, as it adds only around 0.035ms of latency. 10ms setting for debounce should be an ideal value, lowering it might cause problems, and it shouldn't be any higher than 20ms.  
 <br />
 ## Performance:
--The input lag for an arcade controller built around this project is the lowest I have ever seen in any device. Here is the result from a [test with a native polling rate of 1ms](https://inputlag.science/controller/methodology):  
+The input lag for an arcade controller built around this project is the lowest I have ever seen in any device. Here is the result from a [test with a native polling rate of 1ms](https://inputlag.science/controller/methodology):  
 
 #### DaemonRipped Arcade Encoder (tested with debouncing on):
 | Samples | Average | Max | Min | Std Dev | % On next frame |
