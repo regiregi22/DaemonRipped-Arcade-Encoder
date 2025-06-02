@@ -19,7 +19,6 @@ Just for comparison, this is the latency for a common low latency controller:
 | ------ | ------ | ------ | ------ | ------ | 
 | 1000 | 3.00ms | 12.00ms | 2.20ms | 0.70ms |  
 
-<br />  
 
 #### Sony DualShock 4 (Wired) (native polling rate 4ms):
 | Samples | Average | Max | Min | Std Dev |
