@@ -1,10 +1,10 @@
 # DaemonRipped Arcade Encoder
-This is an arcade controller project based on [MickGyver's DaemonBite](https://github.com/MickGyver/DaemonBite-Arcade-Encoder), but optimized for lower latency and overhead, by removing all optionals features. A four-direction stick and up to 12 buttons are supported. It uses any standard Arduino Pro Micro board.  
+This is an arcade controller board based on [MickGyver's DaemonBite](https://github.com/MickGyver/DaemonBite-Arcade-Encoder), but optimized for lower latency by removing all optionals features. A four-direction stick and up to 12 buttons are supported. It uses any standard Arduino Pro Micro board.  
 
 Debounce optional feature has been kept. It is activated by default, as it adds only around 0.035ms of latency. 10ms setting for debounce should be an ideal value, lowering it might cause problems, and it shouldn't be any higher than 20ms.  
 <br />
 ## Performance:
--The input lag for an arcade controller built around this project is minimal. Here is the result from a [test with a native polling rate of 1ms](https://inputlag.science/controller/methodology):  
+-The input lag for an arcade controller built around this project is the lowest I have ever seen in any device. Here is the result from a [test with a native polling rate of 1ms](https://inputlag.science/controller/methodology):  
 
 #### DaemonRipped Arcade Encoder (tested with debouncing on):
 | Samples | Average | Max | Min | Std Dev | % On next frame |
@@ -34,12 +34,12 @@ The wiring is simple. Connect one leg of each microswitch to GND and the other l
 <br />
 ## Programming the Arduino board:  
 1. Solder J1 on the Arduino Pro Micro (to properly run 5v for 16Mhz).
-2. Download the free Arduino IDE: https://www.arduino.cc/en/main/software.
+2. Download and install the free Arduino IDE: https://www.arduino.cc/en/main/software.
 3. Connect the Arduino Pro Micro to a USB port and let the drivers install.
-4. Open up Arduino, then go to the Preferences (File > Preferences). Then, towards the bottom of the window, paste this URL into the "Additional Board Manager URLs" text box: https://raw.githubusercontent.com/sparkfun/Arduino_Boards/main/IDE_Board_Manager/package_sparkfun_index.json.
-5. Open the Board Manager by clicking Tools, then hovering over the Board selection tab and clicking Board Manager. Search for 'sparkfun' in the Board Manager. You should see the SparkFun AVR Boards package appear. Click install. Close Arduino IDE.
-6. Open the file "C:\Users\USER\AppData\Local\Arduino15\packages\SparkFun\hardware\avr\1.1.13\boards.txt" and edit the name of the USB joystick in the string "promicro.build.usb_product=". Change the value of "promicro.build.vid=" if using more than one joystick.
-7. Select Tools > Board: > SparkFun AVR Boards > SparkFun Pro Micro.
-8. Select Tools > Port: > COM Port.
-9. Select Tools > Processor: > ATmega32U4 (5V, 16 Mhz).
-10. Compile/Upload the project.
+4. Open up Arduino IDE, then click on File > Preferences. Towards the bottom of the window, paste this URL into the "Additional Board Manager URLs" text box: https://raw.githubusercontent.com/sparkfun/Arduino_Boards/main/IDE_Board_Manager/package_sparkfun_index.json.
+5. Click on Tools > Board > Board Manager. Search for 'sparkfun' in the Board Manager. You should see the SparkFun AVR Boards package appear. Click install. Close Arduino IDE.
+6. Open the file "C:\Users\YOUR-USER\AppData\Local\Arduino15\packages\SparkFun\hardware\avr\1.1.13\boards.txt" and edit the name that the USB joystick device will have, in the string "promicro.build.usb_product=". Change the value of "promicro.build.vid=" if using more than one joystick, for them to be unique.
+7. Click on Tools > Board: > SparkFun AVR Boards > SparkFun Pro Micro.
+8. Click on Tools > Port: > COM Port.
+9. Click on Tools > Processor: > ATmega32U4 (5V, 16 Mhz).
+10. Click Compile/Upload the project.
