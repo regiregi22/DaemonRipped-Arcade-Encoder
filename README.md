@@ -17,13 +17,13 @@ Debouncing for mechanical switches is already activated (adds only around 0.035m
 #### Sony DualShock 4 (Bluetooth) (native polling rate 1ms):
 | Samples | Average | Max | Min | Std Dev |
 | ------ | ------ | ------ | ------ | ------ | 
-| 1000 | 3.00ms | 12.00ms | 2.20ms | 0.70ms |  
+| 1000 | 3.00ms | 12.0ms | 2.20ms | 0.70ms |  
 
 
 #### Sony DualShock 4 (Wired) (native polling rate 4ms):
 | Samples | Average | Max | Min | Std Dev |
 | ------ | ------ | ------ | ------ | ------ | 
-| 1000 | 10.3ms | 12.4ms | 7.5ms | 1.2ms |  
+| 1000 | 10.3ms | 12.4ms | 7.50ms | 1.20ms |  
 
 <br />  
 
