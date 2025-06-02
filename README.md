@@ -9,7 +9,7 @@ Debouncing for mechanical switches is already activated (adds only around 0.035m
 #### DaemonRipped Arcade Encoder (tested with debouncing on):
 | Samples | Average | Max | Min | Std Dev | % On time |
 | ------ | ------ | ------ | ------ | ------ | ------ | 
-| 1000 | 0.72ms | 1.19ms | 0.41ms | 0.24ms | 96% |  
+| 1000 | 0.72ms | 1.19ms | 0.41ms | 0.24ms |    96% |  
 
 <br />  
 
@@ -17,13 +17,13 @@ Debouncing for mechanical switches is already activated (adds only around 0.035m
 #### Sony DualShock 4 (Bluetooth) (native polling rate 1ms):
 | Samples | Average | Max | Min | Std Dev | % On time |
 | ------ | ------ | ------ | ------ | ------ | ------ |
-| 1000 | 3.00ms | 12.0ms | 2.20ms | 0.70ms | 83% |  
+| 1000 | 3.00ms | 12.0ms | 2.20ms | 0.70ms |    83% |  
 
 
 #### Sony DualShock 4 (Wired) (native polling rate 4ms):
 | Samples | Average | Max | Min | Std Dev | % On time | 
 | ------ | ------ | ------ | ------ | ------ | ------ |
-| 1000 | 10.3ms | 12.4ms | 7.50ms | 1.20ms | 39% |  
+| 1000 | 10.3ms | 12.4ms | 7.50ms | 1.20ms |    39% |  
 
 <br />  
 
