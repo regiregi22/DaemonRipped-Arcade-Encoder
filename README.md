@@ -20,12 +20,14 @@ Just for comparison, this is the latency for a common low latency controller:
 | 1000 | 3.00ms | 12.00ms | 2.20ms | 0.70ms |  
 
 <br />  
+
 #### Sony DualShock 4 (Wired) (native polling rate 4ms):
 | Samples | Average | Max | Min | Std Dev |
 | ------ | ------ | ------ | ------ | ------ | 
 | 1000 | 10.3ms | 12.4ms | 7.5ms | 1.2ms |  
 
 <br />  
+
 ## Wiring:  
 The wiring is simple. Connect one leg of each microswitch to GND and the other leg to the digital pin according to the schematic below:  
 
