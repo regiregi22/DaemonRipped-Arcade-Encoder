@@ -1,30 +1,22 @@
 # DaemonRipped Arcade Encoder
-This is an arcade controller project based on MickGyver's DaemonBite joystick, but removing all extra functions to a minimum. A four directions stick and up to 12 buttons are supported. It uses any standard Arduino Pro Micro board.
+This is an arcade controller project based on MickGyver's DaemonBite, but removing all extra functions. A four-direction stick and up to 12 buttons are supported. It uses any standard Arduino Pro Micro board.  
 
-Debouncing for mechanical switches is already activated (adds around 0.035ms latency, which is nothing). 10ms should be an ideal value, lowering it might cause problems, and it shouldn't be any higher than 20ms.
-
+Debouncing for mechanical switches is already activated (adds only around 0.035ms latency). 10ms setting for debounce should be an ideal value, lowering it might cause problems, and it shouldn't be any higher than 20ms.  
+<br />
 ## Performance:
 The input lag for an arcade controller built around this project is minimal. Here is the result from a test with a 1ms polling rate:  
 
-DaemonRipped Arcade Encoder (tested with debouncing):
+DaemonRipped Arcade Encoder (tested with debouncing on):
 | Samples | Average | Max | Min | Std Dev |
 | ------ | ------ | ------ | ------ | ------ | 
-| 1000 | 0.68ms | 1.15ms | 0.37ms | 0.24ms |  
+| 1000 | 0.72ms | 1.19ms | 0.41ms | 0.24ms |  
 
-
-
-DaemonBite Arcade Encoder (tested without debouncing):
-| Samples | Average | Max | Min | Std Dev |
-| ------ | ------ | ------ | ------ | ------ | 
-| 13962 | 0.74ms | 1.28ms | 0.23ms | 0.29ms |  
-
-
+<br />
 ## Wiring:  
-The wiring is simple. Connect one leg of each microswitch to GND and the other leg to the digital pin according to the schematic below. That's it!  
+The wiring is simple. Connect one leg of each microswitch to GND and the other leg to the digital pin according to the schematic below:  
 
 ![Assemble1](images/daemonbite-arcade-encoder-wiring.png)
-
-
+<br />
 ## Programming the Arduino board:  
 1. Solder J1 on the Arduino Pro Micro (to properly run 5v for 16Mhz).
 2. Download the free Arduino IDE: https://www.arduino.cc/en/main/software.
