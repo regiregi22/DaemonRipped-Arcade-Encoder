@@ -7,23 +7,23 @@ Debouncing for mechanical switches is already activated (adds only around 0.035m
 -The input lag for an arcade controller built around this project is minimal. Here is the result from a [test with a native polling rate of 1ms](https://inputlag.science/controller/methodology):  
 
 #### DaemonRipped Arcade Encoder (tested with debouncing on):
-| Samples | Average | Max | Min | Std Dev | % On time |
+| Samples | Average | Max | Min | Std Dev | % On next frame |
 | ------ | ------ | ------ | ------ | ------ | ------ | 
-| 1000 | 0.72ms | 1.19ms | 0.41ms | 0.24ms |    96% |  
+| 1000 | 0.72ms | 1.19ms | 0.41ms | 0.24ms | 96% |  
 
 <br />  
 
 -Just for comparison, this is the latency for a common low latency controller:
 #### Sony DualShock 4 (Bluetooth) (native polling rate 1ms):
-| Samples | Average | Max | Min | Std Dev | % On time |
+| Samples | Average | Max | Min | Std Dev | % On next frame |
 | ------ | ------ | ------ | ------ | ------ | ------ |
-| 1000 | 3.00ms | 12.0ms | 2.20ms | 0.70ms |    83% |  
+| 1000 | 3.00ms | 12.0ms | 2.20ms | 0.70ms | 83% |  
 
 
 #### Sony DualShock 4 (Wired) (native polling rate 4ms):
-| Samples | Average | Max | Min | Std Dev | % On time | 
+| Samples | Average | Max | Min | Std Dev | % On next frame | 
 | ------ | ------ | ------ | ------ | ------ | ------ |
-| 1000 | 10.3ms | 12.4ms | 7.50ms | 1.20ms |    39% |  
+| 1000 | 10.3ms | 12.4ms | 7.50ms | 1.20ms | 39% |  
 
 <br />  
 
