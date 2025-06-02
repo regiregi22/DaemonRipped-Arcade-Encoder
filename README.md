@@ -9,7 +9,7 @@ Debouncing for mechanical switches is already activated (adds only around 0.035m
 #### DaemonRipped Arcade Encoder (tested with debouncing on):
 | Samples | Average | Max | Min | Std Dev | % On next frame |
 | ------ | ------ | ------ | ------ | ------ | ------ | 
-| 1000 | 0.72ms | 1.19ms | 0.41ms | 0.24ms | 96% |  
+| 1000 | 0.72ms | 1.19ms | 0.41ms | 0.24ms | &nbsp; 96% |  
 
 <br />  
 
