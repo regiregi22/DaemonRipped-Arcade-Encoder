@@ -12,6 +12,7 @@ Debounce optional feature has been kept. It is activated by default, as it adds 
 | 1000 | 0.72ms | 1.19ms | 0.41ms | 0.24ms | &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 96% |  
 
 <br />  
+<br /> 
 
 -Just for comparison, this is the latency for a common low latency controller:
 #### Sony DualShock 4 (Bluetooth) (native polling rate 1ms):
