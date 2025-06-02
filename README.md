@@ -11,7 +11,7 @@ The input lag for an arcade controller built around this project is minimal. Her
 | ------ | ------ | ------ | ------ | ------ | 
 | 1000 | 0.72ms | 1.19ms | 0.41ms | 0.24ms |  
 
-<br />
+
 ## Wiring:  
 The wiring is simple. Connect one leg of each microswitch to GND and the other leg to the digital pin according to the schematic below:  
 
